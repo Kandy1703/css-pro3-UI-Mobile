@@ -1,0 +1,398 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: rgb(209, 203, 203);
+}
+.top{
+    display: flex;
+    height: 80px;
+    box-shadow: 0px 5px 5px #aaaaaa;
+    background-color: white;
+    
+}   
+.head1{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.head2{
+    color: rgb(21, 178, 240);
+} 
+
+     /* Task and Plus */
+.parent{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+     
+}
+.circle{
+    width: 3%;
+    height: 3%;
+    border-radius: 50%;
+    background-color: aqua;  
+    position: relative;
+    top: 55px;
+    right: 250px;
+}
+.plus{
+font-size: 35px;
+font-weight: bolder;
+text-align: center;
+}
+
+.task{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 10px;
+    position: relative;
+    right: 240px;
+    top: 50px;
+}
+.task a{
+    text-decoration: none;
+    color: #9b9494;
+}
+.plus a{
+    text-decoration: none;
+    color: white;
+}
+    /* packages */
+
+     .parent1{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        position: relative; 
+        top: 100px;
+        left: 0px;
+    }
+    .routin{
+        position: relative;
+        left: 20px;
+    }
+    .books{
+        position: relative;
+        left: 20px;
+    }
+    
+    .box{
+        width: 250px;
+        height: 300px;
+        color: aqua;
+        /* padding: 40px; */
+        font-size: 18px;
+        bottom: 10px;
+        background-color: white;
+        border-radius: 10px;  
+    }
+    .box a{
+        text-decoration: none;
+        color: aqua;
+    }
+    .to a{
+        padding: 0px;
+    }
+    .to{
+        padding: 20px;
+    }
+    .box:hover{ 
+        box-shadow: 0px 0px 5px 10px rgb(238, 231, 231);
+    }
+    input{
+        position: relative;
+        left: 20px;
+    }
+    label{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 20px;
+    }
+
+    .del{
+        color: gray;
+        text-decoration: line-through;
+    } 
+    /* Second Page */
+     
+    .learn-c{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 200px;
+    }
+    .page{
+        width: 400px;
+        height: 200px;   
+        background-color: rgb(248, 239, 239);
+        border-radius: 10px;
+        
+    }
+    .add{
+        font-family: inherit;
+        font-weight: bold;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .xxx{
+        color: #aaaaaa;
+        position: relative;
+        right: 20px;
+        bottom: 10px;
+        text-align: right;
+    }
+    .xxx a{
+        text-decoration: none;
+    }
+    .learn{
+        width: 350px;
+        height: 25px;
+        position: relative;
+        left: 25px;
+        top: 20px;
+        /* background-color: #f7f5f5; */
+    }
+    .add{
+        top: 10px;
+        color: #aaaaaa;
+    }
+    .click{
+        display: flex;
+        justify-content: right;
+    }
+    .button{  
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        background-color: skyblue;
+        position: relative;
+        right: 20px;
+        top: 40px; 
+    }  
+
+    /* Third page */
+    .top{
+        display: block;
+        background-color: white;
+        height: 100px;
+    } 
+    .demohead{
+        font-size: 40px;
+        font-weight: bold;
+        position: relative;
+        top: 20px;
+        left: 40px;
+    }  
+    .demohead2{
+        color: rgb(21, 178, 240);
+    } 
+    .demo{
+        display: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .icon{
+        position: relative;
+        top: 90px;
+        right: 60px;      
+     }
+     .demoback{
+        font-family: sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        position: relative;
+        top: 90px;
+        right: 50px;   
+    }
+    .democircle{
+        width: 3%;
+        height: 3%;
+        border-radius: 50%;
+        background-color: aqua;
+        position: relative;
+        left: 70px;
+        top: 75px;
+    }
+    .democircle a{
+        text-decoration: none;
+        color: #9b9494;
+    }
+    .demotask a{
+        text-decoration: none;
+        color: #9b9494;
+    }
+    .demoplus{
+        font-size: 35px;
+        color: #9b9494;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .demotask{
+        font-family: sans-serif;
+        font-size: 20px;
+        line-height: 35px;
+        position: relative;
+        color: #9b9494;
+        top: 80px;
+        left: 80px;
+    }
+    
+    
+    .demoparent{
+        display: flex;
+        justify-content: center;
+        position: relative; 
+        top: 100px;
+        
+
+    }
+    .demoparis{
+        width: 300px;
+        height: 350px;
+        color: aqua;
+        padding: 40px;
+        font-size: 25px;
+        /* border: 1px solid black; */
+        background-color: white;
+        border-radius: 10px;  
+        position: relative;
+        
+    }
+    
+    .demoparis:hover{ 
+        box-shadow: 0px 0px 5px 10px rgb(238, 231, 231);
+    }
+
+
+    .demodels{
+        color: gray;
+        text-decoration: line-through;
+    }
+    label{
+        color: black;
+    }
+    /* forht page */
+
+    
+    /* blur properties */
+
+    
+    .fristindex{
+        filter: blur(5px);
+        
+    }
+
+
+    /* ################################# */
+    /* Meadia quary frist page-1*/
+
+    @media screen and (max-width:500px){
+        .task{
+            display: none;
+        }
+        .circle{
+        width: 13%;
+        height: 3%;
+        border-radius: 50%;
+        background-color: aqua;  
+        position: relative;
+        top: 55px;
+        right: 166px;
+        }
+        .parent1{
+            position: relative;
+            left: 0px;
+        }
+        .plus{
+        position: relative;
+        top: 2px;
+        left: 0px;
+        }
+        .box{
+        width: 290px;
+        height: 350px;
+        margin: 10px;
+        position: relative;
+        
+        }
+        .paris{
+            position: relative;
+            left: -5px;
+        }
+        .list{
+            position: relative;
+            left: 9px;
+        }
+        .movies{
+            position: relative;
+            left: 9px;
+        }
+
+        /* mobile view second page2 */
+        .leran-c{
+            position: relative;
+            left: 0px;
+        }
+        .page{
+            width: 250px;
+            height: 150px;
+            position: relative; 
+            left: 0px;
+            bottom: 799px;
+        }
+        .learn{
+            width: 200px;
+        }
+        .click{
+            position: relative;
+            bottom: 25px;
+            left: 10px;
+        }
+        /* mobile view page-3 */
+        .demotask{
+            display: none;
+        }
+        .demoback{
+            position:relative;
+            right: 77px;
+        }
+        .icon{
+            position: relative;
+            right: 83px;
+        }
+        .xxx{
+            position: relative;
+        }
+        .democircle{
+            width: 46px;
+            height: 44px;
+            position: relative;
+            left: -45px;
+        }
+        .demoplus{
+            width: 10px;
+            height: 10px;
+            position: relative;
+            left: 12px;
+        }
+        .demoparis{
+            width: 300px;
+            position: relative;
+            left: 0px;
+        }
+
+
+    }
